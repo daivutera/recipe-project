@@ -5,9 +5,9 @@ export const Div = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
   height: 10rem;
   object-fit: cover;
+  width: 100%;
 `;
 export const Logo = styled.img`
   height: 5rem;

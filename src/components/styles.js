@@ -14,7 +14,7 @@ export const Img = styled.img`
   }
 `;
 export const Logo = styled.img`
-  && {
+   {
     height: 5rem;
     margin-bottom: 2rem;
     margin-left: 33rem;
@@ -22,13 +22,13 @@ export const Logo = styled.img`
   }
 `;
 export const Flex = styled.div`
-  && {
+   {
     display: flex;
     justify-content: flex-start;
   }
 `;
 export const Link = styled.a`
-  && {
+   {
     margin: 1rem;
   }
 `;

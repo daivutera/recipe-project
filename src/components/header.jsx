@@ -8,7 +8,12 @@ export const Header = () => {
       <S.Flex>
         <S.Link href='www.google.lt'>Home</S.Link>
         <S.Link href='www.google.lt'>Recipes</S.Link>
-        <Button>+ Submit Recipe</Button>
+        <Button
+          handleClick={() => {
+            alert('hi');
+          }}>
+          + Submit Recipe
+        </Button>
       </S.Flex>
 
       <div>

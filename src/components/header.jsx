@@ -9,6 +9,7 @@ export const Header = () => {
         <S.Link href='www.google.lt'>Home</S.Link>
         <S.Link href='www.google.lt'>Recipes</S.Link>
         <Button
+          colorAdded='red'
           handleClick={() => {
             alert('hi');
           }}>
